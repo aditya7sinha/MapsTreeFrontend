@@ -1,7 +1,6 @@
 import './App.css';
-// import { useState } from 'react';
+import { useState } from 'react';
 import NavRoute from './routes/NavRoute';
-// import SignIn from './pages/authentication/SignIn';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import { BrowserRouter } from "react-router-dom";
 import Profile from './pages/profile/Profile';

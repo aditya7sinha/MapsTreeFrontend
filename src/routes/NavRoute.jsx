@@ -3,11 +3,11 @@ import Dashboard from '../pages/dashboard/Dashboard';
 import Profile from '../pages/profile/Profile';
 import AboutUs from '../pages/aboutus/AboutUs';
 import {Link, Outlet} from 'react-router-dom';
-import Navbar from '../components/Navbar'
-function NavRoute() {
+import NavBars from '../components/NavBars'
+function NavRoute({token}) {
   return (
    <>
-     <Navbar /> 
+     <NavBars /> 
       <Outlet />
     </>
   )
